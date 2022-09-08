@@ -73,7 +73,8 @@ const ProfilePage = () => {
         <div className="ml-auto">
           <Badge pill variant="success">
             Scheduled
-          </Badge>
+          </Badge>{" "}
+          <FaTrashAlt size={20} color="red" onClick={() => deleteTurf(id)} />
         </div>
       );
     }
